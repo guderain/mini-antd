@@ -22,8 +22,8 @@ export const getSize = (size: IconProps['size']) => {
         return size as string[];
     }
 
-    const width = (size as string) || '1em';
-    const height = (size as string) || '1em';
+    const width = (size as string) || '2em';
+    const height = (size as string) || '2em';
 
     return [width, height];
 };
